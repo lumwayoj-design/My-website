@@ -1,0 +1,121 @@
+css
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #f5f7fa;
+    color: #333;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    background: #004aad;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+nav{
+    background: #003580;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 15px;
+}
+nav ul li a{
+color: white;
+text-decoration: none;
+front-weight: bold;
+}
+
+.hero input{
+width: 300px;
+padding: 12px;
+margin-top: 20px;
+}
+
+.job-section{
+    padding: 50px 0;
+}
+.job-card{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+}
+
+.job-card button{
+    background: #004aad;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#tips{
+    padding: 50px 0;
+    background: white;
+}
+
+#tips ul li{
+    margin: 10px 0;
+}
+
+.newsletter{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.newsletter button{
+    padding: 12px 20px;
+    background: #004aad;
+    color: white;
+    border: none;
+}
+
+#contact{
+    padding: 50px 0;
+    background: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea{
+    padding: 12px;
+}
+
+form button{
+    background: #004aad;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+}
+
+footer{
+    background: #003580;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
